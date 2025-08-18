@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casa Raíz - Contacto</title>
+  <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 font-sans">
+  <!-- Barra de navegación -->
+  <header class="bg-green-700 text-white p-4 flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+      <img src="imagenes/logo.png" alt="Logo Casa Raíz" class="h-10">
+      <h1 class="text-xl font-bold">Casa Raíz</h1>
+    </div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-green-200">Inicio</a></li>
+        <li><a href="sobre.html" class="hover:text-green-200">Sobre</a></li>
+        <li><a href="plantas.html" class="hover:text-green-200">Plantas</a></li>
+        <li><a href="cuidados.html" class="hover:text-green-200">Cuidados</a></li>
+        <li><a href="galeria.html" class="hover:text-green-200">Galería</a></li>
+        <li><a href="contacto.html" class="hover:text-green-200 font-bold">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de contacto -->
+  <main class="max-w-5xl mx-auto p-8">
+    <h2 class="text-3xl font-bold text-green-800 mb-6">Contáctanos</h2>
+    <p class="mb-6 text-gray-700">Si tienes dudas, sugerencias o deseas más información sobre nuestras plantas y servicios, completa el siguiente formulario o visítanos en nuestra tienda.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Formulario -->
+      <form class="bg-white shadow-lg rounded-xl p-6 space-y-4">
+        <div>
+          <label for="nombre" class="block text-gray-700 font-semibold">Nombre</label>
+          <input type="text" id="nombre" name="nombre" class="w-full border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-green-400" required>
+        </div>
+        <div>
+          <label for="email" class="bloc

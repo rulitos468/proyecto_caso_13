@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casa Raíz - Galería</title>
+  <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 font-sans">
+  <!-- Barra de navegación -->
+  <header class="bg-green-700 text-white p-4 flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+      <img src="https://www.bing.com/ck/a?!&&p=41e49dee68e03ae44ec512ed0b989e6ae5a22cc13df6864046b5d4a7d290baf5JmltdHM9MTc1NTQ3NTIwMA&ptn=3&ver=2&hsh=4&fclid=1413b1e6-cf22-650d-1620-a7eece5e64ff&u=a1L2ltYWdlcy9zZWFyY2g_cT1sb2dvcytkZStwbGFudGFzJmlkPTJENDU3MkI0QTQ5NENCREUwMDUwQzY3QTI3NTU4NDRDN0MwRTczMEQmRk9STT1JQUNGSVI&ntb=1 " alt="Logo Casa Raíz" class="h-10">
+      <h1 class="text-xl font-bold">Casa Raíz</h1>
+    </div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-green-200">Inicio</a></li>
+        <li><a href="sobre.html" class="hover:text-green-200">Sobre</a></li>
+        <li><a href="plantas.html" class="hover:text-green-200">Plantas</a></li>
+        <li><a href="cuidados.html" class="hover:text-green-200">Cuidados</a></li>
+        <li><a href="galeria.html" class="hover:text-green-200 font-bold">Galería</a></li>
+        <li><a href="contacto.html" class="hover:text-green-200">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Galería de imágenes -->
+  <main class="max-w-6xl mx-auto p-8">
+    <h2 class="text-3xl font-bold text-green-800 mb-6">Galería de Plantas</h2>
+    <p class="text-gray-700 mb-6">
+      Explora nuestra colección de plantas. Aquí encontrarás diferentes especies con sus nombres.
+    </p>
+
+    <!-- Grid de imágenes -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Imagen 1 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src="imagenes/planta1.jpg" alt="Monstera deliciosa" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-green-700">Monstera deliciosa</h3>
+        </div>
+      </div>
+
+      <!-- Imagen 2 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src="imagenes/planta2.jpg" alt="Ficus lyrata" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-green-700">Ficus lyrata</h3>
+        </div>
+      </div>
+
+      <!-- Imagen 3 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src=" https://www.google.com/url?sa=i&url=https%3A%2F%2Fplantme.cl%2Fblogs%2Fplant-me-tips-y-cuidados%2Ftodo-lo-que-debes-saber-sobre-las-suculentas%3Fsrsltid%3DAfmBOoq-ZaliDmBaNXgpGaZ1QMtxl-SrvqNIpHkvQ4loAIbRI0EyzN27&psig=AOvVaw2p-hmkEb_LZEm1KMxJY4pC&ust=1755621416547000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOjjjM3llI8DFQAAAAAdAAAAABAE" alt="Suculentas" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-green-700">Suculentas</h3>
+        </div>
+      </div>
+
+      <!-- Imagen 4 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mimercadito.cl%2Ftienda%2Fhelecho-crispy-wave%2F%3Fsrsltid%3DAfmBOorklOaEJtX2CPHAAET7EIAG--b5tySru9X0zczXvn9xO4sGpTwk&psig=AOvVaw14-yUHwmb7WDXidWd_nOdF&ust=1755621362228000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPi7rrPllI8DFQAAAAAdAAAAABAL " alt="Helecho" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-green-700">Helecho</h3>
+        </div>
+      </div>
+
+      <!-- Imagen 5 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src=" https://img.freepik.com/fotos-premium/lavanda-fondo-blanco-aislado_198067-50.jpg" alt="Lavanda" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-green-700">Lavanda</h3>
+        </div>
+      </div>
+
+      <!-- Imagen 6 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.DdHPgZ87y_nk96mqaz8SMgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3 " alt="Cactus" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-green-700">Cactus</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white text-center p-4 mt-10">
+    <p>&copy; 2024 Casa Raíz. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
